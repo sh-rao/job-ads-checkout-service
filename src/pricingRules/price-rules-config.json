@@ -1,0 +1,68 @@
+[
+  {
+    "product": "Classic Ad",
+    "quantityPricingRules": [
+      {
+        "baseQuantity": 3,
+        "freeQuantity": 1,
+        "customers": ["SecondBite"]
+      },
+      {
+        "baseQuantity": 1,
+        "freeQuantity": 0,
+        "customers": ["default"]
+      }
+    ],
+    "discountPricingRules": [
+      {
+        "discount": 0,
+        "customers": ["default"]
+      }
+    ]
+  },
+  {
+    "product": "Stand out Ad",
+    "quantityPricingRules": [
+      {
+        "baseQuantity": 5,
+        "freeQuantity": 1,
+        "customers": ["MYER"]
+      },
+      {
+        "baseQuantity": 1,
+        "freeQuantity": 0,
+        "customers": ["default"]
+      }
+    ],
+    "discountPricingRules": [
+      {
+        "discount": 23,
+        "customers": ["Axil Coffee Roasters"]
+      },
+      {
+        "discount": 0,
+        "customers": ["default"]
+      }
+    ]
+  },
+  {
+    "product": "Premium Ad",
+    "quantityPricingRules": [
+      {
+        "baseQuantity": 1,
+        "freeQuantity": 0,
+        "customers": ["default"]
+      }
+    ],
+    "discountPricingRules": [
+      {
+        "discount": 5,
+        "customers": ["MYER"]
+      },
+      {
+        "discount": 0,
+        "customers": ["default"]
+      }
+    ]
+  }
+]
